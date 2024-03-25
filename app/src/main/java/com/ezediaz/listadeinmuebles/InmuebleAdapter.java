@@ -38,9 +38,4 @@ public class InmuebleAdapter extends ArrayAdapter<Inmueble> {
 
         return convertView;
     }
-
-    public void setInmuebles(List<Inmueble> inmuebles) {
-        this.inmuebles = inmuebles;
-        notifyDataSetChanged();
-    }
 }
